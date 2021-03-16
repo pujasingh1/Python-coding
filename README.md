@@ -1,4 +1,3 @@
-# Python-coding
 #compute the factorial of a given number, result printed in single line.(4! is 4*3*2*1 = 24)
 
 def factorial(num):
