@@ -1,9 +1,6 @@
 print("Welcome to the Love Calculator!")
 name1 = input("What is your name? \n")
 name2 = input("What is their name? \n")
-# 🚨 Don't change the code above 👆
-
-#Write your code below this line 👇
 
 merge_of_name = (name1+ " " +name2)
 lower_case_name = merge_of_name.lower()
@@ -28,8 +25,6 @@ e = lower_case_name.count("e")
 
 Total2 = (l + o + v + e)
 love_score = int(str(Total1) + str(Total2))
-# print(love_score)
-
 
 if (love_score <= 10) or (love_score >= 90):
   print(f"Your score is {love_score}, you go together like coke and mentos.")
