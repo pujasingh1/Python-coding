@@ -1,6 +1,4 @@
 import random
-from os import system
-
 stages = ['''
   +---+
   |   |
@@ -72,8 +70,6 @@ for _ in range(word_length):
 
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
-    
-    system('cls')
     
     if guess in display:
         print(f"You already guessed a letter {guess}")
