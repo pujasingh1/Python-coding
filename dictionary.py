@@ -1,8 +1,23 @@
-#given integer number n, create a dictionary with the function that creates the square of the number.
- #integer is a number assigned to a function.
-print('Enter in a number:')
-n = int(input())
-d = dict()
-for i in range(i,n+1):
-  d[i] = i*i
-print(d)
+student_score = {
+    "Puja": 85,
+    "Pratibha": 91,
+    "Tanu": 90,
+    "Aman": 75,
+    "Tanya": 69,
+    "Olay": 60,
+    }
+
+student_grade = {}
+
+for student in student_score:
+    score = student_score[student]
+    if score > 90:
+        student_grade[student] = "Outstanding"
+    elif score > 80:
+        student_grade[student] = "Exceeds Expectation"
+    elif score > 70:
+        student_grade[student] = "Acceptable"
+    else:
+        student_grade[student] = "Fail"
+        
+print(student_grade)
