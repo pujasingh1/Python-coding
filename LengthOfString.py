@@ -5,5 +5,5 @@ print(length)
 
 #Note:
 #Suppose "jack" is the Input
-#!st: Print(len("Jack"))
+#1st: Print(len("Jack"))
 #2nd: print(4)
