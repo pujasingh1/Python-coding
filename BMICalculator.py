@@ -4,5 +4,4 @@ height_as_float = height
 weight_as_float = weight
 
 BMI = weight/floatheight ** 2
-
 print(int(BMI))
